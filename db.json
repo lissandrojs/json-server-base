@@ -6,6 +6,30 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "teste@completo.com",
+      "password": "$2a$10$n41tCQWHtk0/UFYBmqdy/.9YyXFh6d6LVUhyJLqyvIh66yHKVcwii",
+      "name": "Teste completo",
+      "age": 27,
+      "id": 2
+    }
+  ],
+  "cart": [
+    {
+      "type": "Panificadora",
+      "name": "Pao de Batata",
+      "userId": 2,
+      "id": 1
+    }
+  ],
+  "infoUser": [
+    {
+      "name": "teste completo complexo",
+      "cep": "1100101",
+      "bio": "Sou um teste bem completo ",
+      "userId": 2,
+      "id": 1
     }
   ]
 }

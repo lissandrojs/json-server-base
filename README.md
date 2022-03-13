@@ -21,4 +21,24 @@ Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do
 POST /login <br/>
 POST /signin
 
-Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users".
+
+### Cart
+
+POST/cart
+
+Neste endepoint somente o usuario autenticado pode adicionar um novo item no carrinho, ele tambem precisa na requicao , a referencia do id do usuario ex:"userID:1".
+
+GET/cart
+
+Neste endpoint qualquer pessoa pode acessar , sem a necessidade de autenticação.
+
+### infoUser
+
+POST/infoUser
+GET/infoUser
+
+Nestes 2 endpoint somente o usuario autenticado pode Registrar e acessar estas informações .
+
+POST/  ele  precisa na requicao a referencia do id do usuario ex:"userID:1".
+
